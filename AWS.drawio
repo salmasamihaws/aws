@@ -1,0 +1,456 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+  <diagram name="Page-1" id="_HwHmPqi2moBth6EIecf">
+    <mxGraphModel dx="2233" dy="1418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-1" value="Concepts" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-150" width="617" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-2" value="Section #1: Introduction to Cloud Computing&#xa;&#xa;- Cloud Computing Definition&#xa;- Infrastructure As Software&#xa;- Traditional Computing Model&#xa;- Cloud Computing Model&#xa;- Cloud Service Models&#xa;- Cloud Deployment Models" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="47" y="120" width="260" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-3" value="Section #2: Advantages of Cloud Computing&#xa;&#xa;- Capital Expense vs Variable Expense&#xa;- Massive Economies of Scale&#xa;- Stop Guessing Capacity&#xa;- Increase Speed and Agility&#xa;- Stop Spending Money of Data Center&#xa;- Go Global in Minutes" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="357" y="122" width="260" height="241" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-4" value="Section #3: Introduction to AWS&#xa;&#xa;- Web service&#xa;- AWS&#xa;- Categories of AWS Services&#xa;- Simple Solution Example&#xa;- Choosing a service&#xa;- Interact with AWS" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="667" y="122" width="260" height="239" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-5" value="Section #4: Moving to the AWS Cloud - AWS CAF&#xa;&#xa;- AWS CAF&#xa;- Six Core Perspectives&#xa;- Business Perspective&#xa;- People Perspective&#xa;- Governance Perspective&#xa;- Platform Perspective&#xa;- Security Perspective&#xa;- Operation Perspective" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="977" y="123" width="260" height="239" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-6" value="" style="startArrow=none;endArrow=block;exitX=0;exitY=0.63;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="72cWaMU_xtwHyJMPpv6F-1" target="72cWaMU_xtwHyJMPpv6F-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-7" value="" style="startArrow=none;endArrow=block;exitX=0;exitY=0.89;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="72cWaMU_xtwHyJMPpv6F-1" target="72cWaMU_xtwHyJMPpv6F-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-8" value="" style="startArrow=none;endArrow=block;exitX=1.01;exitY=0.89;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="72cWaMU_xtwHyJMPpv6F-1" target="72cWaMU_xtwHyJMPpv6F-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-9" value="" style="startArrow=none;endArrow=block;exitX=1.01;exitY=0.63;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="72cWaMU_xtwHyJMPpv6F-1" target="72cWaMU_xtwHyJMPpv6F-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-11" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.aws_s3" vertex="1" parent="1">
+          <mxGeometry x="578.5" y="-60" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-12" value="Cloud Computing Model" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="560" width="330" height="564" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-13" value="AWS Data Centers - Global Infrastructure" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-12">
+          <mxGeometry x="43" y="46" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-14" value="UCW Account" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-12">
+          <mxGeometry x="95" y="198" width="155" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-15" value="Region = Virginia" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-12">
+          <mxGeometry x="83" y="327" width="180" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-16" value="Registrar Operational Environment" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-12">
+          <mxGeometry x="43" y="456" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-12" source="72cWaMU_xtwHyJMPpv6F-13" target="72cWaMU_xtwHyJMPpv6F-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-12" source="72cWaMU_xtwHyJMPpv6F-14" target="72cWaMU_xtwHyJMPpv6F-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-12" source="72cWaMU_xtwHyJMPpv6F-15" target="72cWaMU_xtwHyJMPpv6F-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-20" value="Traditional Computing Model" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="660" y="560" width="330" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-21" value="UCW Data Center" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-20">
+          <mxGeometry x="81" y="62.67639902676399" width="185" height="73.57664233576642" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-22" value="Location = Vancouver" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-20">
+          <mxGeometry x="67" y="237.0802919708029" width="213" height="73.57664233576642" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-23" value="Registrar Operational Environment" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-20">
+          <mxGeometry x="43" y="412.8467153284671" width="260" height="106.27737226277371" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-20" source="72cWaMU_xtwHyJMPpv6F-21" target="72cWaMU_xtwHyJMPpv6F-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-20" source="72cWaMU_xtwHyJMPpv6F-22" target="72cWaMU_xtwHyJMPpv6F-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-26" value="Case Study #1: Traditional vs Cloud Computing Models" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="50" y="450" width="1190" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-71" value="Case Study #2: Cloud Deployment Models" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="43.5" y="1190" width="1190" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-72" value="Multi_Cloud" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-4" y="1310" width="621" height="588" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-73" value="Azure Data Center" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-72">
+          <mxGeometry x="43" y="339" width="192" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-74" value="UCW Accounts" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-72">
+          <mxGeometry x="58" y="492" width="162" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-75" value="AWS Data Centers&#xa;Global Infrastructure" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-72">
+          <mxGeometry x="302" y="46" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-76" value="Region: Virginia" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-72">
+          <mxGeometry x="346" y="198" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-77" value="Registrar Operational Environment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-72">
+          <mxGeometry x="302" y="327" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-78" value="External Virtual Server&#xa;OS&#xa;CPU&#xa;Storage&#xa;Network" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-72">
+          <mxGeometry x="270" y="480" width="325" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-79" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-72" source="72cWaMU_xtwHyJMPpv6F-73" target="72cWaMU_xtwHyJMPpv6F-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-80" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-72" source="72cWaMU_xtwHyJMPpv6F-75" target="72cWaMU_xtwHyJMPpv6F-76">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-81" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-72" source="72cWaMU_xtwHyJMPpv6F-76" target="72cWaMU_xtwHyJMPpv6F-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-82" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-72" source="72cWaMU_xtwHyJMPpv6F-77" target="72cWaMU_xtwHyJMPpv6F-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-83" value="Hybrid_Cloud" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1310" width="616" height="588" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-84" value="UCW Data Center" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-83">
+          <mxGeometry x="78" y="57" width="185" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-85" value="Location: Mixed" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-83">
+          <mxGeometry x="220" y="198" width="174" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-86" value="AWS Data Centers&#xa;Global Infrastructure" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-83">
+          <mxGeometry x="313" y="46" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-87" value="Registrar Operational Environment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-83">
+          <mxGeometry x="176" y="327" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-88" value="General Virtual Server&#xa;OS&#xa;CPU&#xa;Storage&#xa;Network" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-83">
+          <mxGeometry x="144" y="480" width="325" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-89" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.17;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-83" source="72cWaMU_xtwHyJMPpv6F-84" target="72cWaMU_xtwHyJMPpv6F-85">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-90" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.82;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-83" source="72cWaMU_xtwHyJMPpv6F-86" target="72cWaMU_xtwHyJMPpv6F-85">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="443" y="161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-91" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-83" source="72cWaMU_xtwHyJMPpv6F-85" target="72cWaMU_xtwHyJMPpv6F-87">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-92" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-83" source="72cWaMU_xtwHyJMPpv6F-87" target="72cWaMU_xtwHyJMPpv6F-88">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-93" value="Private_Cloud" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-4" y="1950" width="624" height="564" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-94" value="UCW Data Center" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-93">
+          <mxGeometry x="178.51139240506328" y="46" width="292.253164556962" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-95" value="Location: On-Premises" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-93">
+          <mxGeometry x="150.0759493670886" y="174" width="347.54430379746833" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-96" value="Registrar Operational Environment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-93">
+          <mxGeometry x="118.48101265822784" y="303" width="410.73417721518985" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-97" value="General Virtual Server&#xa;OS&#xa;CPU&#xa;Storage&#xa;Network" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-93">
+          <mxGeometry x="67.92911392405063" y="456" width="513.4177215189874" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-98" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-93" source="72cWaMU_xtwHyJMPpv6F-94" target="72cWaMU_xtwHyJMPpv6F-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-99" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-93" source="72cWaMU_xtwHyJMPpv6F-95" target="72cWaMU_xtwHyJMPpv6F-96">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-100" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-93" source="72cWaMU_xtwHyJMPpv6F-96" target="72cWaMU_xtwHyJMPpv6F-97">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-101" value="Public_Cloud" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1950" width="610" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-102" value="AWS Data Centers&#xa;Global Infrastructure" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-101">
+          <mxGeometry x="115.82278481012658" y="35.92747559274756" width="401.5189873417722" height="60.920502092050214" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-103" value="UCW Account" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-101">
+          <mxGeometry x="197.67088607594937" y="154.64435146443515" width="239.36708860759495" height="42.17573221757323" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-104" value="Region: Virginia" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-101">
+          <mxGeometry x="183.77215189873417" y="255.39748953974896" width="265.62025316455697" height="42.17573221757323" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-105" value="Registrar Operational Environment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-101">
+          <mxGeometry x="115.82278481012658" y="356.1506276150628" width="401.5189873417722" height="60.920502092050214" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-106" value="General Virtual Server&#xa;OS&#xa;CPU Storage Network" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-101">
+          <mxGeometry x="66.40506329113924" y="475.6485355648536" width="501.8987341772152" height="60.920502092050214" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-107" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-101" source="72cWaMU_xtwHyJMPpv6F-102" target="72cWaMU_xtwHyJMPpv6F-103">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-108" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-101" source="72cWaMU_xtwHyJMPpv6F-103" target="72cWaMU_xtwHyJMPpv6F-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-109" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-101" source="72cWaMU_xtwHyJMPpv6F-104" target="72cWaMU_xtwHyJMPpv6F-105">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-110" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-101" source="72cWaMU_xtwHyJMPpv6F-105" target="72cWaMU_xtwHyJMPpv6F-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-115" value="&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;strong&gt;Dataset Concern&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Private Cloud&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Public Cloud&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Hybrid Cloud&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Multi Cloud&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Dataset - Location&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;On-premises, fully controlled&lt;/td&gt;&lt;td&gt;Hosted by provider (e.g. AWS)&lt;/td&gt;&lt;td&gt;Split between on-prem and cloud&lt;/td&gt;&lt;td&gt;Distributed across multiple cloud vendors&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Dataset - Access&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Restricted internal access&lt;/td&gt;&lt;td&gt;Broad internet-based access&lt;/td&gt;&lt;td&gt;Conditional access, policy-driven&lt;/td&gt;&lt;td&gt;Multiple access policies, federated&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Dataset - Privacy&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;High (internal only)&lt;/td&gt;&lt;td&gt;Moderate, managed by provider&lt;/td&gt;&lt;td&gt;Configurable, based on deployment choice&lt;/td&gt;&lt;td&gt;Varies by provider and configuration&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;fontSize=23;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="1710" width="740" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-116" value="Case Study #3: Cloud Service Models (IaaS, PaaS, SaaS)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="43.5" y="2570" width="1190" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-117" value="SaaS_Stack" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="77.5" y="2660" width="330" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-118" value="AWS Data Centers" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-117">
+          <mxGeometry x="80" y="47.63754045307443" width="187" height="55.92233009708738" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-119" value="UCW Account" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-117">
+          <mxGeometry x="95" y="180.19417475728156" width="155" height="55.92233009708738" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-120" value="Region: Virginia" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-117">
+          <mxGeometry x="87" y="313.7864077669903" width="172" height="55.92233009708738" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-121" value="Availability Zone" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-117">
+          <mxGeometry x="83" y="447.37864077669906" width="179" height="55.92233009708738" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-122" value="Registrar Operational Environment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-117">
+          <mxGeometry x="43" y="580.9708737864078" width="260" height="80.77669902912622" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-123" value="Managed Software" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-117">
+          <mxGeometry x="77" y="739.4174757281554" width="191" height="55.92233009708738" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-124" value="Dataset" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-117">
+          <mxGeometry x="116" y="873.0097087378641" width="115" height="55.92233009708738" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-125" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-117" source="72cWaMU_xtwHyJMPpv6F-118" target="72cWaMU_xtwHyJMPpv6F-119">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-126" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-117" source="72cWaMU_xtwHyJMPpv6F-119" target="72cWaMU_xtwHyJMPpv6F-120">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-127" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-117" source="72cWaMU_xtwHyJMPpv6F-120" target="72cWaMU_xtwHyJMPpv6F-121">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-128" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-117" source="72cWaMU_xtwHyJMPpv6F-121" target="72cWaMU_xtwHyJMPpv6F-122">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-129" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-117" source="72cWaMU_xtwHyJMPpv6F-122" target="72cWaMU_xtwHyJMPpv6F-123">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-130" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-117" source="72cWaMU_xtwHyJMPpv6F-123" target="72cWaMU_xtwHyJMPpv6F-124">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-131" value="PaaS_Stack" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="457.5" y="2660" width="330" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-132" value="AWS Data Centers" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-131">
+          <mxGeometry x="80" y="47.63754045307443" width="187" height="55.92233009708738" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-133" value="UCW Account" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-131">
+          <mxGeometry x="95" y="180.19417475728156" width="155" height="55.92233009708738" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-134" value="Region: Virginia" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-131">
+          <mxGeometry x="87" y="313.7864077669903" width="172" height="55.92233009708738" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-135" value="Availability Zone" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-131">
+          <mxGeometry x="83" y="447.37864077669906" width="179" height="55.92233009708738" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-136" value="Registrar Operational Environment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-131">
+          <mxGeometry x="43" y="580.9708737864078" width="260" height="80.77669902912622" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-137" value="Managed Platform" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-131">
+          <mxGeometry x="78" y="739.4174757281554" width="190" height="55.92233009708738" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-138" value="Dataset" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-131">
+          <mxGeometry x="116" y="873.0097087378641" width="115" height="55.92233009708738" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-139" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-131" source="72cWaMU_xtwHyJMPpv6F-132" target="72cWaMU_xtwHyJMPpv6F-133">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-140" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-131" source="72cWaMU_xtwHyJMPpv6F-133" target="72cWaMU_xtwHyJMPpv6F-134">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-141" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-131" source="72cWaMU_xtwHyJMPpv6F-134" target="72cWaMU_xtwHyJMPpv6F-135">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-142" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-131" source="72cWaMU_xtwHyJMPpv6F-135" target="72cWaMU_xtwHyJMPpv6F-136">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-143" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-131" source="72cWaMU_xtwHyJMPpv6F-136" target="72cWaMU_xtwHyJMPpv6F-137">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-144" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-131" source="72cWaMU_xtwHyJMPpv6F-137" target="72cWaMU_xtwHyJMPpv6F-138">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-145" value="IaaS_Stack" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="837.5" y="2660" width="362.5" height="951" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-146" value="AWS Data Centers" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-145">
+          <mxGeometry x="95" y="46" width="187" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-147" value="UCW Account" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-145">
+          <mxGeometry x="111" y="174" width="155" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-148" value="Region: Virginia" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-145">
+          <mxGeometry x="103" y="303" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-149" value="Availability Zone" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-145">
+          <mxGeometry x="99" y="432" width="179" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-150" value="Registrar Operational Environment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-145">
+          <mxGeometry x="59" y="561" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-151" value="Virtual Server&#xa;CPU&#xa;Storage&#xa;Network" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-145">
+          <mxGeometry x="43" y="714" width="292" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-152" value="Dataset" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="72cWaMU_xtwHyJMPpv6F-145">
+          <mxGeometry x="132" y="867" width="115" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-153" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-145" source="72cWaMU_xtwHyJMPpv6F-146" target="72cWaMU_xtwHyJMPpv6F-147">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-154" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-145" source="72cWaMU_xtwHyJMPpv6F-147" target="72cWaMU_xtwHyJMPpv6F-148">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-155" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-145" source="72cWaMU_xtwHyJMPpv6F-148" target="72cWaMU_xtwHyJMPpv6F-149">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-156" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-145" source="72cWaMU_xtwHyJMPpv6F-149" target="72cWaMU_xtwHyJMPpv6F-150">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-157" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-145" source="72cWaMU_xtwHyJMPpv6F-150" target="72cWaMU_xtwHyJMPpv6F-151">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-158" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.49;entryY=0.01;rounded=0;" edge="1" parent="72cWaMU_xtwHyJMPpv6F-145" source="72cWaMU_xtwHyJMPpv6F-151" target="72cWaMU_xtwHyJMPpv6F-152">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-169" value="&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;strong&gt;Dataset Concern&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;IaaS&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;PaaS&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;SaaS&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Dataset - Location&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Customer-controlled (within cloud)&lt;/td&gt;&lt;td&gt;Shared control with provider&lt;/td&gt;&lt;td&gt;Mostly provider-controlled&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Dataset - Access&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Fully managed by customer&lt;/td&gt;&lt;td&gt;Provider manages platform access&lt;/td&gt;&lt;td&gt;Access controlled by software provider&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Dataset - Privacy&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;High (custom security can be applied)&lt;/td&gt;&lt;td&gt;Moderate (platform-limited configs)&lt;/td&gt;&lt;td&gt;Limited (depends on provider policies)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;fontSize=24;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="2930" width="560" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-170" value="Concepts: AWS Billing, Pricing, and Support Overview" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="30" y="3690" width="1520" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-172" value="Concepts" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="440" y="3770" width="660" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-173" value="Section #1: Fundamentals of Pricing&#xa;&#xa;- AWS Pricing Model&#xa;- How do you pay&#xa;- Pay for what you use&#xa;- Pay less when you reserve&#xa;- Pay less for using more&#xa;- Pay less as AWS grows&#xa;- Custom Pricing&#xa;- AWS Free Tier&#xa;- Services with no charge" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="20" y="3910" width="260" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-174" value="Section #2: Total Cost of Ownership&#xa;&#xa;- On-premises vs Cloud&#xa;- TCO&#xa;- TCO consideration&#xa;- On-premises vs AWS in Cloud&#xa;- AWS Pricing Calculator&#xa;- Hard Benefits - Soft Benefits" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="330" y="3922" width="260" height="298" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-175" value="Section #3: AWS Organizations&#xa;&#xa;- Introduction to AWS Organizations&#xa;- AWS Organization Terminology&#xa;- Key Features and Benefits&#xa;- Security with AWS Organizations&#xa;- Organization Units&#xa;- Limits of AWS Organization Setup&#xa;- Accessing AWS Organizations" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="640" y="3874" width="260" height="342" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-176" value="Section #4: AWS Billing and Cost Management&#xa;&#xa;- Introducing AWS Billing and Cost Management&#xa;- AWS Billing Dashboard&#xa;- Tools&#xa;- Monthly Bills&#xa;- Cost Explorer&#xa;- Forecast and Track Costs&#xa;- Cost and Usage Reporting" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="950" y="3922" width="260" height="288" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-177" value="Section #5: Technical Support&#xa;&#xa;- AWS Support&#xa;- Support Plans&#xa;- Case Severity and Response Times" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="3970" width="260" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-178" value="" style="startArrow=none;endArrow=block;exitX=0;exitY=0.6;entryX=0.5;entryY=0;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="72cWaMU_xtwHyJMPpv6F-172" target="72cWaMU_xtwHyJMPpv6F-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-179" value="" style="startArrow=none;endArrow=block;exitX=0;exitY=0.7;entryX=0.5;entryY=0;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="72cWaMU_xtwHyJMPpv6F-172" target="72cWaMU_xtwHyJMPpv6F-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-180" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="72cWaMU_xtwHyJMPpv6F-172" target="72cWaMU_xtwHyJMPpv6F-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-181" value="" style="startArrow=none;endArrow=block;exitX=1;exitY=0.7;entryX=0.5;entryY=0;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="72cWaMU_xtwHyJMPpv6F-172" target="72cWaMU_xtwHyJMPpv6F-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="72cWaMU_xtwHyJMPpv6F-182" value="" style="startArrow=none;endArrow=block;exitX=1;exitY=0.6;entryX=0.5;entryY=0;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="72cWaMU_xtwHyJMPpv6F-172" target="72cWaMU_xtwHyJMPpv6F-177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
