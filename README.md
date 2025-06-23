@@ -28,6 +28,45 @@ Concepts: AWS Billing, Pricing, and Support Overview
  
 In this diagram, there are five main conceptual areas regarding AWS billing, pricing, and support. In the initial segment, the author informs the reader about the pricing model of AWS and focuses on a pay-as-you-go approach and other cost-saving models, including reservations, tiered usage, and custom pricing. The second part is devoted to Total Cost of Ownership (TCO), the comparison between the cloud and on-premises infrastructure and how to use the AWS Pricing Calculator to evaluate costs. Part three plunges into AWS Organizations and explains the organization units, access, security, and feature advantages. The fourth part describes how to manage cost, such as dashboard, billing tools, forecasting usage, and reporting. Finally, the last section, section five, about AWS technical support, is presented, overviews support plans, and case severity system according to which the response time operates. The combination of these sections can serve as a basis of mastering AWS billing and support practices.
 
+
+![image](https://github.com/user-attachments/assets/0d2ab652-1831-4151-a537-c3192056f921)
+
+
+
+AWS Global infrastructure 
+AWS has an international system that assists the users in enjoying the services in various parts of the globe. It has numerous data centers that are located in different regions and availability zones. This arrangement assists the users to receive quick and quality service. It also facilitates the storage and insertion of data on a safe fast manner.
+ 
+![image](https://github.com/user-attachments/assets/2794e5aa-2093-4e1c-ac23-d3a376ee0281)
+
+
+AWS IAM 
+Containing the control of who may access the AWS resources, AWS IAM is a service. It allows the user to generate accounts and accord them only the required permissions. This assists in maintaining safety of the system. Using IAM, the user can permit or deny the actions on the individual or a group of people.
+
+![image](https://github.com/user-attachments/assets/e1aceacc-9541-42c7-9c27-4bf637a6878a)
+
+
+AWS VPC
+AWS VPC can be considered a personal cloud network. It allows user to have complete control to the network settings including IP address and traffic rules. Using VPC, the user can manage and protect his data and control the flow of data between the cloud and on-premise.
+
+![image](https://github.com/user-attachments/assets/b78198fd-642b-4b78-88aa-0ec0b8dcd0ef)
+
+ 
+AWS Lambda 
+AWS Lambda comprises a service whereby code is executed, without using a server. The user creates the code and defines when he/she wants it to be executed. Everything else is covered by AWS then. It is practical in that one can only pay to run the program and not acquire an entire server.
+ 
+![image](https://github.com/user-attachments/assets/013aee48-ca24-4890-ab26-434aeee9b1b1)
+
+
+AWS EBS
+AWS EBS is a block storage facility compatible with EC2 virtual computer. It provides speedy and consistent storage of information that requires long term storage. EBS may be employed in storage of files, execution of databases, or y storage of backup information.
+
+ 
+
+
+
+
+
+
 References
 Armbrust, M., Fox, A., Griffith, R., Joseph, A. D., Katz, R., Konwinski, A., Lee, G., Patterson, D., Rabkin, A., Stoica, I., & Zaharia, M. (2010). A view of cloud computing. Communications of the ACM, 53(4), 50–58. https://doi.org/10.1145/1721654.1721672
 Rountree, N., & Castrillo, D. (2013). The basics of cloud computing: Understanding the fundamentals of cloud computing in theory and practice. Syngress. https://www.elsevier.com/books/the-basics-of-cloud-computing/rountree/978-0-12-416697-5
