@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Understanding Student Course Completion Patterns in Academic Programs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="font-family: Arial, sans-serif; line-height:1.6; margin:0; padding:0 20px; background-color:#fdfdfd; color:#333;">
+
+  <h1 style="text-align:center; font-size:32px; margin-top:40px;" id="top">Understanding Student Course Completion Patterns in Academic Programs</h1>
+  <p style="text-align:center; font-style:italic;">A descriptive-analytics project deployed on AWS</p>
+
+  <h2 style="border-bottom:2px solid #ccc; padding-bottom:6px;">Table of Contents</h2>
+  <ol style="margin-left:20px; line-height:1.8;">
+    <li><a href="#project-overview" style="color:#0073e6; text-decoration:none;">Project Overview</a></li>
+    <li><a href="#objectives" style="color:#0073e6; text-decoration:none;">Objectives</a></li>
+    <li><a href="#dataset" style="color:#0073e6; text-decoration:none;">Dataset</a></li>
+    <li><a href="#methodology" style="color:#0073e6; text-decoration:none;">Methodology</a></li>
+    <li><a href="#descriptive-statistics-key-findings" style="color:#0073e6; text-decoration:none;">Descriptive Statistics &amp; Key Findings</a></li>
+    <li><a href="#tools-technologies" style="color:#0073e6; text-decoration:none;">Tools &amp; Technologies</a></li>
+    <li><a href="#aws-architecture" style="color:#0073e6; text-decoration:none;">AWS Architecture</a>
+      <ul style="margin-left:20px; list-style-type:circle;">
+        <li>Deployment &amp; Service Models</li>
+        <li>Cost Analysis</li>
+        <li>Global Infrastructure</li>
+        <li>Core AWS Services (IAM | VPC | Lambda | EBS)</li>
+      </ul>
+    </li>
+    <li><a href="#deliverables" style="color:#0073e6; text-decoration:none;">Deliverables</a></li>
+    <li><a href="#repository" style="color:#0073e6; text-decoration:none;">Repository</a></li>
+    <li><a href="#how-to-re-run-the-analysis" style="color:#0073e6; text-decoration:none;">How to Re‑run the Analysis</a></li>
+    <li><a href="#references" style="color:#0073e6; text-decoration:none;">References</a></li>
+  </ol>
+
+  <hr style="margin:40px 0;">
+
+  <h2 id="project-overview" style="color:#222;">Project Overview</h2>
+  <p>This project investigates how students progress through their courses—whether they <em>complete</em>, are <em>in progress</em>, or <em>do not complete</em>—to surface patterns that can help institutions improve academic support and curriculum design.</p>
+
+  <h2 id="objectives" style="color:#222;">Objectives</h2>
+  <ul style="margin-left:20px;">
+    <li>Quantify completion, in‑progress, and non‑completion rates for each course.</li>
+    <li>Detect temporal trends (e.g., months with higher completion).</li>
+    <li>Identify courses with unusually high success or dropout rates.</li>
+    <li>Provide actionable recommendations for instructors and administrators.</li>
+  </ul>
+
+  <h2 id="dataset" style="color:#222;">Dataset</h2>
+  <ul style="margin-left:20px;">
+    <li><strong>Size:</strong> 50 student‑course records</li>
+    <li><strong>Fields:</strong> <code>record_id</code>, <code>student_id</code>, <code>course_id</code>, <code>status</code> (Completed | In Progress | Not Completed), <code>raw_date</code></li>
+    <li>Dates were stored in a numeric serial format and converted to standard dates for analysis.</li>
+  </ul>
+
+  <div style="margin:30px 0; text-align:center;">
+    <img src="https://github.com/user-attachments/assets/218fe56b-7dd2-4fd5-8ece-0d1acce2cd6a" alt="Dataset Snapshot" style="max-width:90%; height:auto; border:1px solid #ddd; padding:4px; display:block; margin:0 auto;">
+  </div>
+
+  <h2 id="methodology" style="color:#222;">Methodology</h2>
+  <ol style="margin-left:20px;">
+    <li><strong>Data Ingestion</strong> – Loaded CSV and JSON files into an AWS‑based Python environment.</li>
+    <li><strong>Data Cleaning</strong> –
+      <ul style="margin-left:20px;">
+        <li>Converted numeric dates to <code>YYYY‑MM‑DD</code>.</li>
+        <li>Removed duplicates and corrected invalid values.</li>
+      </ul>
+    </li>
+    <li><strong>Feature Engineering</strong> – Derived monthly/annual completion aggregates and course‑level groupings.</li>
+    <li><strong>Descriptive Analytics</strong> – Produced counts, percentages, and visualizations (line, bar, pie, heat‑map) to reveal patterns.</li>
+  </ol>
+
+  <h2 id="descriptive-statistics-key-findings" style="color:#222;">Descriptive Statistics &amp; Key Findings</h2>
+
+  <div style="margin:30px 0; text-align:center;">
+    <img src="https://github.com/user-attachments/assets/54af11c4-849d-4899-a0ae-aa6a15690cda" alt="Overall Status Distribution" style="max-width:90%; height:auto; border:1px solid #ddd; padding:4px; display:block; margin:0 auto;">
+  </div>
+
+  <ul style="margin-left:20px;">
+    <li>Majority of students remain <strong>In Progress</strong>, indicating longer completion times.</li>
+    <li>Courses <strong>C005</strong> and <strong>C001</strong> exhibit the highest completion rates, while <strong>C006</strong> and <strong>C003</strong> show elevated non‑completion.</li>
+    <li>Completion rates fluctuate throughout the year; certain months consistently peak, suggesting academic‑calendar effects.</li>
+    <li>Recommendation: focus intervention resources on low‑performing courses and align support services with busy months.</li>
+  </ul>
+
+  <div style="margin:30px 0; text-align:center;">
+    <img src="https://github.com/user-attachments/assets/58accaa4-a2af-4823-9f11-315dc8ca8665" alt="Monthly Completion Trend" style="max-width:90%; height:auto; border:1px solid #ddd; padding:4px; display:block; margin:0 auto;">
+  </div>
+
+  <div style="margin:30px 0; text-align:center;">
+    <img src="https://github.com/user-attachments/assets/c207742d-cbda-4edb-a400-f3ee937aee8d" alt="Course-Level Success Rates" style="max-width:90%; height:auto; border:1px solid #ddd; padding:4px; display:block; margin:0 auto;">
+  </div>
+
+  <div style="margin:30px 0; text-align:center;">
+    <img src="https://github.com/user-attachments/assets/1d5e3f36-c86b-447e-ba87-c6e3b4c891fb" alt="Heatmap of Status by Month" style="max-width:90%; height:auto; border:1px solid #ddd; padding:4px; display:block; margin:0 auto;">
+  </div>
+
+  <h2 id="tools-technologies" style="color:#222;">Tools &amp; Technologies</h2>
+
+  <table style="width:100%; border-collapse:collapse; margin-bottom:30px;">
+    <thead>
+      <tr>
+        <th style="border:1px solid #ddd; padding:8px; background:#f0f0f0;">Layer</th>
+        <th style="border:1px solid #ddd; padding:8px; background:#f0f0f0;">Technology</th>
+        <th style="border:1px solid #ddd; padding:8px; background:#f0f0f0;">Purpose</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border:1px solid #ddd; padding:8px;">Data wrangling &amp; analysis</td>
+        <td style="border:1px solid #ddd; padding:8px;"><strong>Pandas</strong>, <strong>NumPy</strong></td>
+        <td style="border:1px solid #ddd; padding:8px;">Cleaning, aggregation</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #ddd; padding:8px;">Visualization</td>
+        <td style="border:1px solid #ddd; padding:8px;"><strong>Matplotlib</strong>, <strong>Seaborn</strong> (optional)</td>
+        <td style="border:1px solid #ddd; padding:8px;">Charts (line, bar, pie, heat‑map)</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #ddd; padding:8px;">Platform</td>
+        <td style="border:1px solid #ddd; padding:8px;"><strong>AWS</strong> (S3, IAM, Lambda, VPC, EBS)</td>
+        <td style="border:1px solid #ddd; padding:8px;">Scalable storage, compute, security, networking</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #ddd; padding:8px;">Prototyping</td>
+        <td style="border:1px solid #ddd; padding:8px;"><strong>Excel</strong></td>
+        <td style="border:1px solid #ddd; padding:8px;">Initial data auditing</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 id="aws-architecture" style="color:#222;">AWS Architecture</h2>
+
+  <h3 style="margin-top:20px;">Deployment &amp; Service Models</h3>
+  <ul style="margin-left:20px;">
+    <li><strong>Traditional vs Cloud</strong> deployment comparison illustrates AWS elasticity and reduced operational overhead.</li>
+    <li>Cloud service layers: <strong>IaaS → PaaS → SaaS</strong>, each shifting responsibility from customer to provider.</li>
+  </ul>
+
+  <div style="margin:30px 0; text-align:center;">
+    <img src="https://github.com/user-attachments/assets/413a930a-2068-4bce-b556-71f37160789a" alt="Traditional vs Cloud" style="max-width:90%; height:auto; border:1px solid #ddd; padding:4px; display:block; margin:0 auto;">
+  </div>
+
+  <div style="margin:30px 0; text-align:center;">
+    <img src="https://github.com/user-attachments/assets/01b08f94-4e84-464b-8b35-cc7fa36940c7" alt="Service Models Layers" style="max-width:90%; height:auto; border:1px solid #ddd; padding:4px; display:block; margin:0 auto;">
+  </div>
+
+  <div style="margin:30px 0; text-align:center;">
+    <img src="https://github.com/user-attachments/assets/e31a4849-1ff0-41b0-8e99-4c4be3c0c11f" alt="Shared Responsibility" style="max-width:90%; height:auto; border:1px solid #ddd; padding:4px; display:block; margin:0 auto;">
+  </div>
+
+  <div style="margin:30px 0; text-align:center;">
+    <img src="https://github.com/user-attachments/assets/199c7352-d54e-4977-81d4-01516110a57d" alt="Elasticity Illustration" style="max-width:90%; height:auto; border:1px solid #ddd; padding:4px; display:block; margin:0 auto;">
+  </div>
+
+  <h3 style="margin-top:20px;">Cost Analysis</h3>
+  <ul style="margin-left:20px;">
+    <li>Pay‑as‑you‑go pricing, Reserved Instances, and tiered usage are evaluated with the <strong>AWS Pricing Calculator</strong> and TCO comparisons.</li>
+    <li>Cost‑management dashboards, forecasting, and AWS Organizations controls are highlighted.</li>
+  </ul>
+
+  <div style="margin:30px 0; text-align:center;">
+    <img src="https://github.com/user-attachments/assets/c74e2e53-072b-476e-9383-4b5965f2d136" alt="Cost Analysis" style="max-width:90%; height:auto; border:1px solid #ddd; padding:4px; display:block; margin:0 auto;">
+  </div>
+
+  <h3 style="margin-top:20px;">Global Infrastructure</h3>
+  <p>AWS Regions and Availability Zones ensure low‑latency access and high availability for worldwide users.</p>
+
+  <div style="margin:30px 0; text-align:center;">
+    <img src="https://github.com/user-attachments/assets/5db7af35-1fce-4a12-888d-cdfc3d1be1a1" alt="AWS Global Infrastructure" style="max-width:90%; height:auto; border:1px solid #ddd; padding:4px; display:block; margin:0 auto;">
+  </div>
+
+  <h3 style="margin-top:20px;">Core AWS Services</h3>
+
+  <table style="width:100%; border-collapse:collapse; margin-bottom:30px;">
+    <thead>
+      <tr>
+        <th style="border:1px solid #ddd; padding:8px; background:#f0f0f0;">Service</th>
+        <th style="border:1px solid #ddd; padding:8px; background:#f0f0f0;">Role in Project</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border:1px solid #ddd; padding:8px;"><strong>IAM</strong></td>
+        <td style="border:1px solid #ddd; padding:8px;">Fine‑grained user permissions for data access</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #ddd; padding:8px;"><strong>VPC</strong></td>
+        <td style="border:1pxsolid #ddd; padding:8px;">Isolated network controlling inbound/outbound traffic</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #ddd; padding:8px;"><strong>Lambda</strong></td>
+        <td style="border:1px solid #ddd; padding:8px;">Serverless execution of ETL jobs and scheduled analytics</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #ddd; padding:8px;"><strong>EBS</strong></td>
+        <td style="border:1px solid #ddd; padding:8px;">Persistent block storage for datasets and intermediate results</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div style="margin:30px 0; text-align:center;">
+    <img src="https://github.com/user-attachments/assets/14b283eb-a017-475f-80eb-c05eba716c07" alt="IAM Diagram" style="max-width:90%; height:auto; border:1px solid #ddd; padding:4px; display:block; margin:0 auto;">
+  </div>
+
+  <div style="margin:30px 0; text-align:center;">
+    <img src="https://github.com/user-attachments/assets/9399090a-f6ef-49a0-b940-6bf20c53f42a" alt="VPC Diagram" style="max-width:90%; height:auto; border:1px solid #ddd; padding:4px; display:block; margin:0 auto;">
+  </div>
+
+  <div style="margin:30px 0; text-align:center;">
+    <img src="https://github.com/user-attachments/assets/bd956131-3503-4d67-9159-f737
